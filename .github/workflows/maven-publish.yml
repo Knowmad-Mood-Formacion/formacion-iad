@@ -41,6 +41,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: atsistemas-formacion/formacion-iad:latest
+        tags: ghcr.io/atsistemas-formacion/formacion-iad:latest
         secrets: |
           GIT_AUTH_TOKEN=${{ secrets.DOCKERHUB_TOKEN }}
